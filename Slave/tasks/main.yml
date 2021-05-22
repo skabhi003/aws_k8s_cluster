@@ -67,7 +67,7 @@
   
 - name: Send Master Token to Slave
   copy:
-          src: "/aws_k8s_cluster/token"
+          src: "token"
           dest: "/tmp/token"
 
 - name: Join the Kubernetes Cluster
