@@ -95,4 +95,4 @@
     var: tokens.stdout_lines
 
 - name: Output
-  local_action: copy content={{ tokens.stdout }} dest=/aws_k8s_cluster/token
+  local_action: copy content={{ tokens.stdout }} dest=token
